@@ -4,7 +4,8 @@ pipeline {
         stage('Test') {
             steps {
                 sh 'python --version'
-                sh 'python weather.py'
+                sh 'https://github.com/KunalNK/hello-python.git'
+                sh 'python app.py'
                 
             }
         }
