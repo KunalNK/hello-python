@@ -3,9 +3,9 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                sh 'python --version'
+                sh 'python3 --version'
                 sh 'https://github.com/KunalNK/hello-python.git'
-                sh 'python app.py'
+                sh 'python3 app.py'
                 
             }
         }
